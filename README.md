@@ -92,7 +92,7 @@ AnimalRunner, da qual seriam derivadas as 3 classes de animais.
 Como um extra, pesquisar sobre lambda expressions e functional interfaces.<br>
 
 Em Runnable, eu já tinha percebido que havia um @FunctionalInterface em cima, então pesquisei e descobri que as interfaces funcionais são aquelas
-que possuem um único método abstrato. Ou seja, tal classe pode ser substituida por uma simples expressão lambda.<br>
+que possuem um único método abstrato. Ou seja, tal método pode ser implementado por uma expressão lambda.<br>
 
 Antes de tentar usar lambda, fiz as alterações para conseguir usar a nova classe AnimalRunner:
 ```java
